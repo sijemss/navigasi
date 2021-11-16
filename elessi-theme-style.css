@@ -729,7 +729,7 @@ blockquote p {
     font-size: 1.37931em;
   }
 }
-#submit, button, .button, input[type="submit"] {
+#submit, button, input[type="submit"] {
   border-width: 2px;
   border-style: solid;
   text-transform: uppercase;
@@ -8874,7 +8874,7 @@ body .cwginstock-subscribe-form .center-block {
   display: block;
 }
 body .cwginstock-subscribe-form input[type="email"],
-body .cwginstock-subscribe-form input[type="text"] {
+body .cwginstock-subscribe-form {
   text-align: left !important;
 }
 body [name="cwgstock_submit"] {
@@ -14369,44 +14369,6 @@ body .wcfmmp-product-geolocate-search-form i.wcfmmmp_locate_icon {
   position: relative;
   width: 100%;
 }
-
-button,
-.button,
-#submit,
-a.button,
-p a.button,
-input#submit,
-.add_to_cart,
-.checkout-button,
-input#place_order,
-form.cart .button,
-.form-submit input,
-input[type="submit"],
-body .dokan-btn-theme,
-body a.dokan-btn-theme,
-.btn-mini-cart .button,
-#payment .place-order input,
-.footer-type-2 input.button,
-#nasa-footer .btn-submit-newsletters,
-.nasa-table-compare .add-to-cart-grid,
-body input[type="submit"].dokan-btn-theme,
-.nasa-static-sidebar .nasa-sidebar-return-shop,
-.product-deal-special-buttons .nasa-product-grid .add-to-cart-grid .add_to_cart_text {
-  background-color: #f76b6a;
-  border-color: #f76b6a;
-  color: #FFF;
-}
-
-button:hover,
-.button:hover,
-#submit:hover,
-a.button:hover,
-p a.button:hover,
-input#submit:hover,
-.add_to_cart:hover,
-.checkout-button:hover,
-input#place_order:hover,
-form.cart .button:hover,
 .form-submit input:hover,
 input[type="submit"]:hover,
 body .dokan-btn-theme:hover,
@@ -16001,7 +15963,7 @@ input[type="submit"][disabled]:hover {
 .nasa-body-loaded .nasa-table-compare .add-to-cart-grid,
 .nasa-body-loaded #submit,
 .nasa-body-loaded button,
-.nasa-body-loaded .button,
+.nasa-body-loaded,
 .nasa-body-loaded input[type="submit"],
 .nasa-body-loaded .nasa-ct-fields-toggle,
 .nasa-body-loaded .nasa-ct-fields-toggle:after,
